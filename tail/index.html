@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
+          extend: {
+            screens: {
+        'xs': {'min':'320px', 'max':'600px'},
+            },
+            colors: {
+              regal: '#243c5a',
+              regal1: 'pink',
+              transparent: 'transparent',
+              current: 'currentColor',
+              'white': '#ffffff',
+              'purple': '#3f3cbb',
+              'midnight': '#121063',
+              'metal': '#565584',
+              'tahiti': '#3ab7bf',
+              'silver': '#ecebff',
+              'bubble-gum': '#ff77e9',
+              'bermuda': '#78dcca',
+            },
+          }
+        }
+      }
+      </script>
+</head>
+<body>
+
+  <div class="max-w-[1320px] md:py-[80px] mx-auto py-5 flex sm:flex-row flex-col">
+    <div class="basis-[45%] pb-5">    
+      <img src="https://th.bing.com/th/id/OIP.8KYqEdTZ31PaQbOIlAaalAHaHx?rs=1&pid=ImgDetMain" class="w-full">
+    </div>
+    <div class="basis-[55%] px-5">
+      <h1 class="text-4xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, minima.</h1>
+      <p class="py-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, nemo? Similique, corrupti nesciunt! Quaerat aperiam, similique doloremque expedita ullam qui sunt fugit ratione, fugiat beatae magni, voluptatum dicta quibusdam non sapiente officia cum alias eius aliquid voluptatem veritatis. Distinctio molestias officiis, atque temporibus ea dignissimos, corporis possimus assumenda architecto nobis soluta culpa, voluptas fugit natus facilis blanditiis pariatur veniam nihil nulla eligendi provident! Molestias odio, aliquam ab magnam et quam inventore enim dolorum obcaecati? Maiores optio eos nam perspiciatis voluptate? Pariatur, voluptate ipsa libero corrupti autem quos repellendus quibusdam commodi reiciendis placeat, molestias itaque, quis facilis consequatur voluptatem? Quos, voluptatum?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, nemo? Similique, corrupti nesciunt! Quaerat aperiam, similique doloremque expedita ullam qui sunt fugit ratione, fugiat beatae magni, voluptatum dicta quibusdam non sapiente officia cum alias eius aliquid voluptatem veritatis. Distinctio molestias officiis, atque temporibus ea dignissimos, corporis possimus assumenda architecto nobis soluta culpa, voluptas fugit natus facilis blanditiis pariatur veniam nihil nulla eligendi provident! Molestias odio, aliquam ab magnam et quam inventore enim dolorum obcaecati? Maiores optio eos nam perspiciatis voluptate? Pariatur, voluptate ipsa libero corrupti autem quos repellendus quibusdam commodi reiciendis placeat, molestias itaque, quis facilis consequatur voluptatem? Quos, voluptatum?</p>
+    </div>
+  </div>
+
+
+  <div class="max-w-[1320px] mx-auto">
+    <h1 class="text-4xl text-center py-5">Featured Product</h1>
+  </div>
+  <div class="max-w-[1320px] mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-5 px-[20px]">
+    <div class="text-center shadow-lg rounded">
+      <div class="overflow-hidden">      
+        <img src="https://th.bing.com/th/id/OIP.8KYqEdTZ31PaQbOIlAaalAHaHx?rs=1&pid=ImgDetMain" alt="" class="hover:scale-125 duration-1000">
+      </div>
+      <h3 class="py-2 text-2xl">Elegant Diamont Ring</h3>
+      <p class="py-2">$2999</p>
+    </div>
+    <div class="text-center shadow-lg rounded">
+      <div class="overflow-hidden">      
+        <img src="https://th.bing.com/th/id/OIP.8KYqEdTZ31PaQbOIlAaalAHaHx?rs=1&pid=ImgDetMain" alt="" class="hover:scale-125 duration-1000">
+      </div>
+      <h3 class="py-2 text-2xl">Elegant Diamont Ring</h3>
+      <p class="py-2">$2999</p>
+    </div>
+    <div class="text-center shadow-lg rounded">
+      <div class="overflow-hidden">      
+        <img src="https://th.bing.com/th/id/OIP.8KYqEdTZ31PaQbOIlAaalAHaHx?rs=1&pid=ImgDetMain" alt="" class="hover:scale-125 duration-1000">
+      </div>
+      <h3 class="py-2 text-2xl">Elegant Diamont Ring</h3>
+      <p class="py-2">$2999</p>
+    </div>
+    <div class="text-center shadow-lg rounded">
+      <div class="overflow-hidden">      
+        <img src="https://th.bing.com/th/id/OIP.8KYqEdTZ31PaQbOIlAaalAHaHx?rs=1&pid=ImgDetMain" alt="" class="hover:scale-125 duration-1000">
+      </div>
+      <h3 class="py-2 text-2xl">Elegant Diamont Ring</h3>
+      <p class="py-2">$2999</p>
+    </div>
+  </div>
+
+
+  <div class="max-w-[1320px] md:py-[80px] mx-auto py-5">
+    <h1 class="text-4xl text-center">Our Services</h1>
+  </div>
+  <div class="max-w-[1200px] mx-auto grid lg:grid-cols-4 sm:grid-cols-2 gap-5 px-[20px] py-[50px]">
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+    <div class="group shadow-lg p-4 text-center hover:bg-blue-500 hover:text-white duration-1000">
+      <i class="fas fa-laptop-code text-2xl text-blue-500 group-hover:text-white duration-1000 animate-bounce"></i>
+      <h3 class="text-xl py-2">Web Design</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dignissimos!</p>
+    </div>
+  </div>
+</body>
+</html>
